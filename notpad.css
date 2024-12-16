@@ -1,0 +1,70 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .notepad-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 300px;
+    padding-inline: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    font-size: 16px;
+  }
+  
+  textarea:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .notepad-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .buttons button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background: #007bff;
+    color: white;
+    transition: background 0.3s;
+  }
+  
+  .buttons button:hover {
+    background: #0056b3;
+  }
+  
+ 
+  .dark-theme {
+    background-color: #333;
+    color: #f4f4f4;
+  }
+  
+  .dark-theme .notepad-container {
+    background: #444;
+    border-color: #666;
+  }
+  
+  .dark-theme textarea {
+    background: #555;
+    color: #f4f4f4;
+    border-color: #666;
+  }
+  
